@@ -1,6 +1,6 @@
 # CrossfilterRails
 
-TODO: Write a gem description
+**CrossfilterRails** is a small, lightweight gem to help facilitate inclusion of the crossfilter javascript library in your rails application through the asset pipeline.
 
 ## Installation
 
@@ -18,7 +18,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+You can include the crossfilter library by adding the following to your javascripts manifest (i.e. application.js)
+
+	//= require jquery
+	.
+	.
+	//= require crossfilter
+
+or if you prefer the minified version:
+
+	//= require jquery
+	.
+	.
+	//= require crossfilter.min 
 
 ## Contributing
 
