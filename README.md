@@ -2,6 +2,10 @@
 
 **CrossfilterRails** is a small, lightweight gem to help facilitate inclusion of the crossfilter javascript library in your rails application through the asset pipeline.
 
+## Version
+
+The current crossfilter version used in this gem is 1.2.0. 
+
 ## Installation
 
 Add this line to your application's Gemfile:

@@ -12,9 +12,9 @@ Gem::Specification.new do |gem|
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "crossfilter_rails"
-  gem.require_paths = ["lib", "vendor"]
+  gem.require_paths = ["lib", "app"]
   gem.version       = CrossfilterRails::VERSION
   gem.add_dependency "railties", ">= 3.1.0"
   gem.add_development_dependency "bundler", ">= 1.0.0"
-  gem.add_development_dependency "rails",   "~> 3.1"
+  gem.add_development_dependency "rails",   ">= 3.1"
 end
