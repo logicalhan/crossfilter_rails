@@ -4,10 +4,10 @@ require File.expand_path('../lib/crossfilter_rails/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors     = ["Michael Bostock", "Han Kang"]
   gem.email       = ["han@logicallsat.com"]
-  gem.homepage    = ""
+  gem.homepage    = "https://github.com/logical42/crossfilter_rails"
   gem.summary     = %q{ Crossfilter javascript library for use with the asset pipeline in Rails 3.1+}
   gem.description = %q{ Rails gem for easily adding the crossfilter javascript library, which is great for exploring multivariate datasets }
-
+  gem.license     = 'MIT'
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
